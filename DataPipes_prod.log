@@ -1,0 +1,36 @@
+2022-03-28 19:17:45,868 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - INFO - 
+The Test is running on prod env, comparing Active listings on Source to Active on common db.
+The test is sampling the last 24 hours with 10 minutes grace until Now.
+the result for the missing will be printed by mls and then in total summary,
+In each print will be a drill down that specify the reason why listing is missing
+
+2022-03-28 19:23:11,410 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - CRITICAL - Results for the test run on mls MLS_LISTINGS
+Total in source: 4925
+final_mis_list: 0
+duplicated_list: 9
+mis_city_list: 0
+not_valid_zipcode_list: 0
+not_valid_comps_proxy_status_list: 0
+not_valid_house_type_list: 8
+not_valid_listing_price_list: 0
+is_filter_list: 8
+not_valid_reali_house_status_list: 611
+miss_list_photos_count: 0
+miss_key_numeric_info_list: 0
+
+
+2022-03-28 19:23:48,182 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - CRITICAL - Results for the test run on mls BAYEAST
+Total in source: 353
+final_mis_list: 5
+duplicated_list: 9
+mis_city_list: 0
+not_valid_zipcode_list: 0
+not_valid_comps_proxy_status_list: 0
+not_valid_house_type_list: 0
+not_valid_listing_price_list: 0
+is_filter_list: 0
+not_valid_reali_house_status_list: 138
+miss_list_photos_count: 0
+miss_key_numeric_info_list: 0
+
+

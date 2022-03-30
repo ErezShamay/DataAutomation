@@ -1,0 +1,35 @@
+2022-03-30 12:02:01,437 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - INFO - The Test is running on prod
+The purpose of this test if to validate alignment between 2 collection and verify zipcode and area service
+
+2022-03-30 12:02:07,188 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - CRITICAL - Test result for checking alignment between listings and zipCodeCoverage collections in mongo db for mls_listings is: 
+miss list: 144
+plus list: 16
+
+2022-03-30 12:02:13,679 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - CRITICAL - Test result for checking alignment between listings and zipCodeCoverage collections in mongo db for bayeast is: 
+miss list: 234
+plus list: 48
+
+2022-03-30 12:02:29,978 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - CRITICAL - Test result for checking alignment between listings and zipCodeCoverage collections in mongo db for crmls is: 
+miss list: 1049
+plus list: 665
+
+2022-03-30 12:02:37,084 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - CRITICAL - Test result for checking alignment between listings and zipCodeCoverage collections in mongo db for sdmls is: 
+miss list: 1269
+plus list: 218
+
+2022-03-30 12:02:42,158 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - CRITICAL - Test result for checking alignment between listings and zipCodeCoverage collections in mongo db for sfar is: 
+miss list: 1203
+plus list: 1
+
+2022-03-30 12:02:48,164 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - CRITICAL - Test result for checking alignment between listings and zipCodeCoverage collections in mongo db for metrolist is: 
+miss list: 1236
+plus list: 3
+
+2022-03-30 12:02:53,553 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - CRITICAL - Test result for checking alignment between listings and zipCodeCoverage collections in mongo db for bareis is: 
+miss list: 1357
+plus list: 3
+
+2022-03-30 12:02:53,553 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - INFO - Total of Miss from ALL MLS is: 6492
+2022-03-30 12:02:53,553 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - INFO - Total of Plus from ALL MLS is: 954
+2022-03-30 12:02:53,553 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - INFO - Total in source from ALL MLS is: 2785
+2022-03-30 12:02:53,553 - reali_automation.reali_data.tests.monitoring.test_listings_2_fact_alignment - INFO - Miss alignment ration of zip code coverage is: 267.3608617594255%
